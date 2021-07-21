@@ -1,0 +1,12 @@
+.container-fluid {
+    margin: 20px;
+    font-size: 15px;
+    font-family: Blinker; 
+
+}
+.container-fluid,
+.row div 
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
