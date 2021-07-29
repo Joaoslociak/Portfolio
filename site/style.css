@@ -1,9 +1,12 @@
+.estilo {
+    background-color: rgb(216, 223, 230);
+}
+
 .container-fluid {
     margin: 20px;
     font-size: 16px;
     font-family: Blinker; 
     padding: 10px;
-
 }
 
 #cabecalho {
@@ -15,11 +18,16 @@
 
 #rodape {
     text-align: center;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 #sobre, #contato {
-    text-shadow: 01px;
-    padding-top: 30px;
-    
+    padding-top: 20px; 
+}
+
+.sobre:hover {
+    text-decoration: underline;
+}
+.contato:hover {
+    text-decoration: underline;
 }
