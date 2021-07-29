@@ -1,12 +1,25 @@
 .container-fluid {
     margin: 20px;
-    font-size: 15px;
+    font-size: 16px;
     font-family: Blinker; 
+    padding: 10px;
 
 }
-.container-fluid,
-.row div 
-{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+
+#cabecalho {
+    margin: center;
+    text-align: center;
+    padding-top: -10px;
+    padding-bottom: 25px;
+}
+
+#rodape {
+    text-align: center;
+    padding-top: 120px;
+}
+
+#sobre, #contato {
+    text-shadow: 01px;
+    padding-top: 30px;
+    
 }
